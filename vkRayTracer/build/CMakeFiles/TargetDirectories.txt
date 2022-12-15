@@ -1,0 +1,16 @@
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/CMakeFiles/nvpro_core.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/CMakeFiles/imgui.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/CMakeFiles/ALL_BUILD.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/glfw/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/glfw/src/CMakeFiles/glfw.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/nvpro_core/third_party/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/raytracer/CMakeFiles/vk_raytracer_KHR.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/raytracer/CMakeFiles/INSTALL.dir
+C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/raytracer/CMakeFiles/ALL_BUILD.dir

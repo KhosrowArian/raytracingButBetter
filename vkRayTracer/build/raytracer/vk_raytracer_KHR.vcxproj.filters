@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\hello_vulkan.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\nvp\perproject_globals.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\nvvk\nsight_aftermath_vk.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\common\obj_loader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\hello_vulkan.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\nvp\resources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\common\obj_loader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\vulkanray\VulkanSDK\Include\vulkan\vulkan_core.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\host_device.h">
+      <Filter>Shader Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\tinygltf\tiny_gltf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\tinygltf\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\vma\include\vk_mem_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\NVTX\c\include\nvtx3\nvToolsExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\frag_shader.frag">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\passthrough.vert">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\post.frag">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\raytrace.rchit">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\raytrace.rgen">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\raytrace.rmiss">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\raytraceShadow.rmiss">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\vert_shader.vert">
+      <Filter>Shader Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\raycommon.glsl">
+      <Filter>Shader Headers</Filter>
+    </None>
+    <None Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer\shaders\wavefront.glsl">
+      <Filter>Shader Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\nvp\resources.rc">
+      <Filter>Common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{056028CF-1645-31AD-836D-B945C6A7775C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C069E0C8-1B15-3610-84E3-68ACCABFE496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Headers">
+      <UniqueIdentifier>{0BDBD7A0-121C-3F93-8C0D-E9961E87CCBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Sources">
+      <UniqueIdentifier>{38F83188-8426-3C76-AE82-7BCFD53ACCCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1C75F3A1-425A-3745-B06B-2FEAE5D7D416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

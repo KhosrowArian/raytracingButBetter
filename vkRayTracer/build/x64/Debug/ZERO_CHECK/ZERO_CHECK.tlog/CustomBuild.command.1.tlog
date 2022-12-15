@@ -1,0 +1,10 @@
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\BUILD\CMAKEFILES\E506F019AA55ABFBD52226D00AFA2E49\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer -BC:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/vkraytracing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

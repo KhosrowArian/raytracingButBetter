@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\build\CMakeFiles\3b459aae8acbc820b2d18066f2599a67\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\Emre\Desktop\raytracingButBetter\nvpro_core\third_party\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\build\nvpro_core\third_party\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A5C13E15-A3D6-34C8-BD2F-F2A52D38C8C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C069E0C8-1B15-3610-84E3-68ACCABFE496}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9a61da82168ec2ef1cda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "nvpro_core",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-nvpro_core-Debug-6bc282b938d88af392aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "nvpro_core/third_party",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-nvpro_core.third_party-Debug-3153e4c586ef1ce88ce3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "nvpro_core/third_party/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-nvpro_core.third_party.glfw-Debug-dae65469a255f9dd0536.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/glfw"
+				},
+				{
+					"build" : "nvpro_core/third_party/glfw/src",
+					"jsonFile" : "directory-nvpro_core.third_party.glfw.src-Debug-5662a0188898295e0ce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "ray_tracing__simple",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ray_tracing__simple-Debug-b02f57ea51e915011719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "ray_tracing__simple",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vkraytracing",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "third_party",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "vk_ray_tracing__simple_KHR",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@e69911e41cbbc987498e",
+					"jsonFile" : "target-glfw-Debug-c6bb80c1e1746ac25cc6.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "imgui::@5b01a53f2adf05ebbe89",
+					"jsonFile" : "target-imgui-Debug-5ae3e8cc4847a54fc6f8.json",
+					"name" : "imgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nvpro_core::@ab9da236d811a907ec30",
+					"jsonFile" : "target-nvpro_core-Debug-811b725ab1323fd940fc.json",
+					"name" : "nvpro_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@e69911e41cbbc987498e",
+					"jsonFile" : "target-update_mappings-Debug-a7d02c3656d465b517a6.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vk_ray_tracing__simple_KHR::@838a5e40fc9fc3b6d442",
+					"jsonFile" : "target-vk_ray_tracing__simple_KHR-Debug-7ca4a8e8a14852273546.json",
+					"name" : "vk_ray_tracing__simple_KHR",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/out/build/x64-Debug",
+		"source" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

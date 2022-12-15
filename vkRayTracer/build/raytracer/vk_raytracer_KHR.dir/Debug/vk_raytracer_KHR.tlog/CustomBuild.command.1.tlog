@@ -1,0 +1,138 @@
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\FRAG_SHADER.FRAG
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/frag_shader.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/frag_shader.frag
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/frag_shader.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/frag_shader.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\PASSTHROUGH.VERT
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/passthrough.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/passthrough.vert
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/passthrough.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/passthrough.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\POST.FRAG
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/post.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/post.frag
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/post.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/post.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\RAYTRACE.RCHIT
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rchit.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rchit
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rchit.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rchit
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\RAYTRACE.RGEN
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rgen.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rgen
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rgen.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rgen
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\RAYTRACE.RMISS
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rmiss
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rmiss
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\RAYTRACESHADOW.RMISS
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytraceShadow.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytraceShadow.rmiss
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytraceShadow.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytraceShadow.rmiss
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\SHADERS\VERT_SHADER.VERT
+setlocal
+cd C:\Users\Emre\Desktop\raytracingButBetter\vkRayTracer\raytracer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+echo D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/vert_shader.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/vert_shader.vert
+if %errorlevel% neq 0 goto :cmEnd
+D:\vulkanray\VulkanSDK\bin\glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/vert_shader.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/vert_shader.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMRE\DESKTOP\RAYTRACINGBUTBETTER\VKRAYTRACER\RAYTRACER\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer -BC:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build --check-stamp-file C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/build/raytracer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

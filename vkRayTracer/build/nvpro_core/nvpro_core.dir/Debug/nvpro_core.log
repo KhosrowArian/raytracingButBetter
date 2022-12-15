@@ -1,0 +1,85 @@
+﻿  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_dome.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn hdr_dome_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_dome.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_dome.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_dome.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_integrate_brdf.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn hdr_integrate_brdf_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_integrate_brdf.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_integrate_brdf.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_integrate_brdf.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_prefilter_diffuse.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn hdr_prefilter_diffuse_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_prefilter_diffuse.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_prefilter_diffuse.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_prefilter_diffuse.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_prefilter_glossy.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn hdr_prefilter_glossy_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/hdr_prefilter_glossy.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_prefilter_glossy.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/hdr_prefilter_glossy.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/passthrough.vert.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn passthrough_vert -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/passthrough.vert.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/passthrough.vert
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/passthrough.vert
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/sky.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn sky_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/sky.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/sky.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/sky.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/tonemapper.comp.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn tonemapper_comp -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/tonemapper.comp.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/tonemapper.comp
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/tonemapper.comp
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/tonemapper.frag.h
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -Invvkhl/shaders -IC:/Users/Emre/Desktop/raytracingButBetter/nvpro_core -g --target-env vulkan1.2 --vn tonemapper_frag -o C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/_autogen/tonemapper.frag.h C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/tonemapper.frag
+  C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvkhl/shaders/tonemapper.frag
+  Building Custom Rule C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/CMakeLists.txt
+  cmake_pch.cxx
+  appwindowprofiler.cpp
+  bitarray.cpp
+  cameramanipulator.cpp
+  filemapping.cpp
+  gltfscene.cpp
+  nvprint.cpp
+  parametertools.cpp
+  primitives.cpp
+  profiler.cpp
+  shaderfilemanager.cpp
+  imgui_camera_widget.cpp
+  imgui_helper.cpp
+  imgui_orient.cpp
+  imgui_impl_glfw.cpp
+  imgui_vk_extra.cpp
+  imgui_impl_vulkan.cpp
+  nv_dds.cpp
+  tiny_converter.cpp
+  nvpwindow.cpp
+  nvpsystem.cpp
+  nvpfilesystem.cpp
+  nvpsystem_win32.cpp
+  appwindowprofiler_vk.cpp
+  buffersuballocator_vk.cpp
+  commands_vk.cpp
+  context_vk.cpp
+  debug_util_vk.cpp
+  descriptorsets_vk.cpp
+  dynamicrendering_vk.cpp
+  error_vk.cpp
+  extensions_vk.cpp
+  gizmos_vk.cpp
+  images_vk.cpp
+  memallocator_dedicated_vk.cpp
+  memallocator_vk.cpp
+  memorymanagement_vk.cpp
+  memorymanagement_vkgl.cpp
+  pipeline_vk.cpp
+  profiler_vk.cpp
+  raytraceKHR_vk.cpp
+  raytraceNV_vk.cpp
+  renderpasses_vk.cpp
+  resourceallocator_vk.cpp
+  samplers_vk.cpp
+  sbtwrapper_vk.cpp
+  shadermodulemanager_vk.cpp
+  stagingmemorymanager_vk.cpp
+  swapchain_vk.cpp
+  appbase_vk.cpp
+  appbase_vkpp.cpp
+  application.cpp
+  gbuffer.cpp
+  gltf_scene_rtx.cpp
+  gltf_scene_vk.cpp
+  hdr_env.cpp
+  hdr_env_dome.cpp
+  sky.cpp
+  tonemap_postprocess.cpp
+  nvpro_core.vcxproj -> C:\Users\Emre\Desktop\raytracingButBetter\bin_x64\Debug\nvpro_core_vk.lib

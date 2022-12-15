@@ -1,0 +1,32 @@
+﻿  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/frag_shader.frag.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/frag_shader.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/frag_shader.frag
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/frag_shader.frag
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/passthrough.vert.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/passthrough.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/passthrough.vert
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/passthrough.vert
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/post.frag.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/post.frag.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/post.frag
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/post.frag
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rchit.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rchit.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rchit
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rchit
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rgen.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rgen.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rgen
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rgen
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rmiss.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytrace.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rmiss
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytrace.rmiss
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytraceShadow.rmiss.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/raytraceShadow.rmiss.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytraceShadow.rmiss
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/raytraceShadow.rmiss
+  Generating C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/vert_shader.vert.spv
+  D:/vulkanray/VulkanSDK/bin/glslangValidator.exe -g --target-env vulkan1.2 -o C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/spv/vert_shader.vert.spv C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/vert_shader.vert
+  C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/shaders/vert_shader.vert
+  Building Custom Rule C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/raytracer/CMakeLists.txt
+  hello_vulkan.cpp
+  main.cpp
+  perproject_globals.cpp
+  nsight_aftermath_vk.cpp
+  obj_loader.cpp
+     Creating library C:/Users/Emre/Desktop/raytracingButBetter/bin_x64/Debug/vk_raytracer_KHR.lib and object C:/Users/Emre/Desktop/raytracingButBetter/bin_x64/Debug/vk_raytracer_KHR.exp
+  vk_raytracer_KHR.vcxproj -> C:\Users\Emre\Desktop\raytracingButBetter\bin_x64\Debug\vk_raytracer_KHR.exe

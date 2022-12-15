@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_finalize_target"
+		],
+		"files" : 
+		[
+			"C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/cmake/setup.cmake",
+			"ray_tracing__simple/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 903,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin_x64_debug",
+			"paths" : 
+			[
+				"C:/Users/Emre/Desktop/raytracingButBetter/bin_x64/Debug/vk_ray_tracing__simple_KHR.exe"
+			],
+			"targetId" : "vk_ray_tracing__simple_KHR::@838a5e40fc9fc3b6d442",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin_x64_debug/vk_ray_tracing__simple_KHR/spv",
+			"paths" : 
+			[
+				"ray_tracing__simple/spv/frag_shader.frag.spv",
+				"ray_tracing__simple/spv/passthrough.vert.spv",
+				"ray_tracing__simple/spv/post.frag.spv",
+				"ray_tracing__simple/spv/raytrace.rchit.spv",
+				"ray_tracing__simple/spv/raytrace.rgen.spv",
+				"ray_tracing__simple/spv/raytrace.rmiss.spv",
+				"ray_tracing__simple/spv/raytraceShadow.rmiss.spv",
+				"ray_tracing__simple/spv/vert_shader.vert.spv"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ray_tracing__simple",
+		"source" : "ray_tracing__simple"
+	}
+}

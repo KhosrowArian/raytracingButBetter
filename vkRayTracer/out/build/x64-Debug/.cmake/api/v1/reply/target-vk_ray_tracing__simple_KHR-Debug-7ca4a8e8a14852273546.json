@@ -1,0 +1,776 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/bin_x64/Debug/vk_ray_tracing__simple_KHR.exe"
+		},
+		{
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/bin_x64/Debug/vk_ray_tracing__simple_KHR.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"_finalize_target",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"_add_package_VulkanSDK",
+			"_add_project_definitions",
+			"_add_nvpro_core_lib",
+			"include_directories",
+			"_add_package_ImGUI",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"ray_tracing__simple/CMakeLists.txt",
+			"C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/cmake/setup.cmake",
+			"C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 902,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 903,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 240,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 8
+			},
+			{
+				"file" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 167,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 34,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 371,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 372,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 36,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1049,
+				"parent" : 20
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 373,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 384,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 35,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MDd /Zi /Ob0 /Od /RTC1   /wd26812 /wd26451"
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "NVP_SUPPORTS_VULKANSDK"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "PROJECT_NAME=\"vk_ray_tracing__simple_KHR\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "PROJECT_RELDIRECTORY=\"../../vkRayTracer/ray_tracing__simple/\""
+				},
+				{
+					"backtrace" : 18,
+					"define" : "RESOURCE_DIRECTORY=\"C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/resources/\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "STBI_MSC_SECURE_CRT"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "VK_ENABLE_BETA_EXTENSIONS"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "VK_USE_PLATFORM_WIN32_KHR"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/out/build/x64-Debug/ray_tracing__simple"
+				},
+				{
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/ray_tracing__simple"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvp"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "D:/vulkanray/VulkanSDK/Include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/imgui"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/glfw/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/imgui"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinygltf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinyobjloader"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/stb"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/cgltf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/vma/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/NVTX/c/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/dxh/include/directx"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG   /wd26812 /wd26451"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "NVP_SUPPORTS_VULKANSDK"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "PROJECT_DOWNLOAD_RELDIRECTORY=\"../../downloaded_resources/\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "PROJECT_NAME=\"vk_ray_tracing__simple_KHR\""
+				},
+				{
+					"backtrace" : 17,
+					"define" : "PROJECT_RELDIRECTORY=\"../../vkRayTracer/ray_tracing__simple/\""
+				},
+				{
+					"backtrace" : 18,
+					"define" : "RESOURCE_DIRECTORY=\"C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/resources/\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "STBI_MSC_SECURE_CRT"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "VK_ENABLE_BETA_EXTENSIONS"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "VK_USE_PLATFORM_WIN32_KHR"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "VULKAN_HPP_DISPATCH_LOADER_DYNAMIC=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/out/build/x64-Debug/ray_tracing__simple"
+				},
+				{
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/ray_tracing__simple"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvp"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "D:/vulkanray/VulkanSDK/Include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/imgui"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/glfw/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/imgui"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinygltf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinyobjloader"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/stb"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/cgltf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/vma/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/NVTX/c/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/dxh/include/directx"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "nvpro_core::@ab9da236d811a907ec30"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "imgui::@5b01a53f2adf05ebbe89"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "glfw::@e69911e41cbbc987498e"
+		}
+	],
+	"id" : "vk_ray_tracing__simple_KHR::@838a5e40fc9fc3b6d442",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin_x64"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "bin_x64_debug"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/vkRayTracer/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\vulkanray\\VulkanSDK\\Lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "C:\\Users\\Emre\\Desktop\\raytracingButBetter\\bin_x64\\Debug\\nvpro_core_vk.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\vulkanray\\VulkanSDK\\Lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\vulkanray\\VulkanSDK\\Lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "nvpro_core\\third_party\\glfw\\src\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "nvpro_core\\third_party\\imgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vk_ray_tracing__simple_KHR",
+	"nameOnDisk" : "vk_ray_tracing__simple_KHR.exe",
+	"paths" : 
+	{
+		"build" : "ray_tracing__simple",
+		"source" : "ray_tracing__simple"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Sources",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Common",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Shader Sources",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "Shader Headers",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "ray_tracing__simple/hello_vulkan.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "ray_tracing__simple/hello_vulkan.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "ray_tracing__simple/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvp/resources.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvp/resources.rc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvp/perproject_globals.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/nvvk/nsight_aftermath_vk.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "common/obj_loader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"path" : "common/obj_loader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "D:/vulkanray/VulkanSDK/Include/vulkan/vulkan_core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/frag_shader.frag",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/passthrough.vert",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/post.frag",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/raytrace.rchit",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/raytrace.rgen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/raytrace.rmiss",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/raytraceShadow.rmiss",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/vert_shader.vert",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/host_device.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/raycommon.glsl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 32,
+			"path" : "ray_tracing__simple/shaders/wavefront.glsl",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinygltf/tiny_gltf.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinygltf/json.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/tinyobjloader/tiny_obj_loader.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/vma/include/vk_mem_alloc.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "C:/Users/Emre/Desktop/raytracingButBetter/nvpro_core/third_party/NVTX/c/include/nvtx3/nvToolsExt.h",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "EXECUTABLE"
+}
