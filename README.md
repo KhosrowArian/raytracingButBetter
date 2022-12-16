@@ -2,7 +2,7 @@
 Graphics Final project
 
 Running Instructions:
-Before running the project you must download VulkanSDK in the main directory of this repo. The folders can be found here <<google docs link coming soon>>.
+Before running the project you must download VulkanSDK in the main directory of this repo. The folders can be found here https://drive.google.com/drive/folders/12FCBiXIDUe8z8lgctdKmjDmEMLzSEpeQ?usp=share_link .
 The repository contains the already built version of the project (Note: it was built on Windows using Visual Studio 2022). To run the project, navigate to vkRayTracer/build. There, you can open the vkraytracing.sln. In the solution, right click on vk_ray_tracing__simple_KHR' and press 'Debug,' then 'Start Without Debugging.'
 
 Changing the Scene:
